@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto-Playing Video</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #222; 
+            color: white;
+            margin-top: 50px;
+        }
+        
+        iframe {
+            border: 5px solid white; 
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.5);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>TWIST Third Assignment</h1>
+    <p>This video plays automatically on mute.</p>
+
+<iframe 
+        src="https://player.vimeo.com/video/240702189?autoplay=1&muted=1" 
+        width="640" 
+        height="360" 
+        frameborder="0" 
+        allow="autoplay; fullscreen; picture-in-picture" 
+        allowfullscreen 
+        title="Vimeo Video">
+</iframe>
+<br><br>
+<p>Now, just in case the video doesn't work-click on that picture:</p>
+    <a href="https://player.vimeo.com/video/240702189?autoplay=1&muted=1">
+    <img src="pizzaIMG.png" alt="Click for Pizza Video" width="640">
+</a>
+<br><br>
+<p>Plus, enjoy the tune!</p>
+
+    <audio controls autoplay>
+        <source src="groovy-vibe.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>
